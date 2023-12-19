@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('./images/wedding-dress-1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    text-align: left;
+    height: 800px;
+    width: 100%;
+}
+
+.hero-text {
+    /* max-width: 700px;
+    margin: 0 auto; */
+   padding-top: 400px;
+   padding-left: 60px;
+   text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+.hero-text p {
+    font-size: 2em;
+    line-height: 1.2;
+    font-family: bradley hand, cursive ;
+}
+
+.read-more-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+
+.read-more-btn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+  .grid-section {
+    /* background-color: #f8f8f8; */
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Set the desired gap between grid items */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid-item {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text {
+    /* background-color: #fff; */
+    padding: 20px;
+  }
+  
+ .text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+ .text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .text a{
+    color: black;
+  }
+  
+  .background-section {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Set the desired height for your background section */
+    background: url('images/wedding-dress-4.jpg') center/cover no-repeat; /* Replace with your image path */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: left;
+    background-color: rgba(0, 0, 0, 0.5); 
+    /* padding: 0px 60px; */
+  }
+
+  .overlay h2 {
+    font-size: 2.5em;
+    margin: 20px 120px;
+  }
+
+  .grid-section-two {
+    padding: 50px 0; 
+  }
+
+  .grid-section-two a {
+   text-align: right;
+  }
+  
+  .grid-container-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Set the desired gap between grid items */
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    width: 80%;
+    margin: auto;
+  }
+
+  .grid-container-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; /* Set the desired gap between grid items */
+    width: 80%;
+    margin: auto;
+  }
+  
+  .grid-item-two {
+    text-align: center;
+  }
+  
+ .grid-item-two img {
+   width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item-two p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .learn-more-two {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    display: block; /* Change to block to make it appear on a new line */
+    margin-left: auto; /* Align to the right */
+    padding: 50px 70px 0px 0px;
+  }
+ 
+  .contact-section {
+    padding: 50px 0; /* Set the desired padding for your section */
+    /* background-color: #f8f8f8; */
+    width: 80%;
+    margin: auto;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; /* Set the desired gap between columns */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-left {
+    padding-right: 20px; /* Adjust the padding as needed */
+  }
+  
+  .contact-left h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .contact-left p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 1.2em;
+  }
+
+  input{
+    background-color: whitesmoke;
+    width: 450px;
+    padding: 20px;
+    font-size: 1em;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 1em;
+    border: 1px solid #fff;
+    background-color: whitesmoke;
+  } */
+  
+  button {
+    padding: 20px ;
+    font-size: 1em;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e0006f;
+  }
+  
+  .contact-right {
+    text-align: left;
+  }
+  
+  .contact-info {
+    /* background-color: #fff; */
+    padding: 20px;
+    /* border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #D0CFCF;
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+  }
+  
+  .map{
+    margin: 50px 0px;
+  }
+
+  .img-2{
+   padding-top: 300px;
+  }
+
+  .img-3{
+    padding-top: 600px;
+   }
+ 
+
+  
+  @media (max-width: 788px) {
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}  
+
+  .contact-container {
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-2{
+    padding-top: 0px;
+   }
+
+   .img-3{
+    padding-top: 0px;
+   }
+ 
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }  
+    .grid-container-two {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px; /* Set the desired gap between grid items */
+        /* max-width: 1200px;
+        margin: 0 auto; */
+        width: 80%;
+        margin: auto;
+      }
+    
+      .grid-container-three {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px; /* Set the desired gap between grid items */
+        width: 80%;
+        margin: auto;
+      }
+
+      input {
+        width:100%;
+    }
+
+    button {
+        width: 350px;
+    }
+
+
+   
+    .contact-left h2 {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+    }
+
+    .hero-text h2 {
+        font-size: 1em;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        line-height: 1.5;
+        letter-spacing: 5px;
+    }
+
+    .overlay h2 {
+        font-size: 2.5em;
+        margin: 20px 10px 0px 50px;
+    }
+
+    .hero-text {
+        padding-top: 200px;
+        padding-left: 10px;
+        color: orangered;
+    }
+
+    .hero-section {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 406px) {
+  input {
+    width: 310px;
+}
+
+button {
+    width: 350px;
+}
+
+  }  
