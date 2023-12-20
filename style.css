@@ -145,7 +145,9 @@
     font-size: 14px;
     display: block; 
     margin-left: auto;
-    padding: 50px 70px 0px 0px;
+    padding-top: 50px;
+    padding-right: 130px ;
+    text-align: right;
   }
 
   .grid-container-three {
@@ -297,5 +299,10 @@
         gap: 50px;
         width: 80%;
         margin: auto;
+      }
+
+      .learn-more-two {
+        padding-right: 0px ;
+        text-align: center;
       }
   }
